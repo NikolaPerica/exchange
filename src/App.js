@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 const getCurrentDate = ()=> {
@@ -13,9 +12,6 @@ function App() {
     
     <div className="App">
       
-     
-
-      <h2>Tecajna lista HNB na dan {getCurrentDate()}</h2>
       <table>
         <tr>
           <th>Drzava</th>

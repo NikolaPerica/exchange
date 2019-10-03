@@ -30,9 +30,9 @@ class App extends Component {
                 <div >
                   <table id="mjenjacnica">
                     <tr>
-                      <th>value</th>
-                      <th>value symbol</th>
-                      <th>price</th>
+                      <th>Value</th>
+                      <th>Value symbol</th>
+                      <th>Price</th>
                     </tr>
                     <tr>
                       <td>{data}</td>

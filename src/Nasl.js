@@ -9,7 +9,7 @@ const getCurrentDate = ()=> {
 function Nasl() {
   return (
     <div className="Nasl">
-   <h2>Bitcoin vrijednosti na dan {getCurrentDate()}</h2>
+   <h1>Bitcoin value on {getCurrentDate()}</h1>
    </div>
   );
 }

@@ -1,6 +1,6 @@
 body
 {
-  background-color: #282c34;
+  background-color: #23547F;
   text-align: center;
   min-height: 100vh;
   display: flex;
@@ -70,6 +70,14 @@ body
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: #4CAF50;
+  background-color: #497399;
+  color: white;
+}
+
+#mjenjacnica td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #23547f;
   color: white;
 }

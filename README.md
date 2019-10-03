@@ -1,3 +1,7 @@
+BTC value in different currencies data from https://blockchain.info
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

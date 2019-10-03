@@ -24,20 +24,20 @@ class App extends Component {
         {
           this.state.data.map((dynamicData, Key) => {
             let keys = Object.keys(dynamicData);
-            let d = dynamicData;
+            //let d = dynamicData;
             return keys.map(data => {
               return (
                 <div >
                   <table id="mjenjacnica">
                     <tr>
-                      <th>valuta</th>
-                      <th>kupnja</th>
-                      <th>prodaja</th>
+                      <th>value</th>
+                      <th>value symbol</th>
+                      <th>price</th>
                     </tr>
                     <tr>
                       <td>{data}</td>
+                      <td> {dynamicData[data].symbol}</td>
                       <td> {dynamicData[data].buy}</td>
-                      <td> {dynamicData[data].sell}</td>
                     </tr>
                   </table>
                 

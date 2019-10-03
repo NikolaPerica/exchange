@@ -44,3 +44,32 @@ body
     transform: rotate(360deg);
   }
 }
+
+#renderiranje
+{
+  margin-left: 25%; 
+  margin-right: 25%; 
+  text-align: center;
+} 
+
+#mjenjacnica {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  
+}
+
+#mjenjacnica td, #mjenjacnica th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#mjenjacnica th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

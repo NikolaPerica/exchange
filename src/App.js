@@ -21,32 +21,34 @@ class App extends Component {
   render() {
     return (
       <div id="renderiranje">
-        {
-          this.state.data.map((dynamicData, Key) => {
-            let keys = Object.keys(dynamicData);
-            //let d = dynamicData;
-            return keys.map(data => {
-              return (
-                <div >
+        <div >
                   <table id="mjenjacnica">
                     <tr>
                       <th>Value</th>
                       <th>Value symbol</th>
                       <th>Price</th>
                     </tr>
+        {
+          this.state.data.map((dynamicData, Key) => {
+            let keys = Object.keys(dynamicData);
+            //let d = dynamicData;
+            return keys.map(data => {
+              return (
+                
                     <tr>
                       <td>{data}</td>
                       <td> {dynamicData[data].symbol}</td>
                       <td> {dynamicData[data].buy}</td>
                     </tr>
-                  </table>
-                
-                </div>
+                  
               );
             });
           })
           
         }
+        </table>
+                
+                </div>
       </div>
     )
   }
